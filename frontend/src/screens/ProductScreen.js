@@ -14,7 +14,7 @@ const ProductScreen = ({ match }) => {
     };
 
     fetchProduct();
-  }, [match.params.id]); // !!! do not forget an Array of dependencies
+  }, [match]); // !!! do not forget an Array of dependencies
 
   return (
     <>
