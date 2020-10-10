@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Macarons Dunkle Schokolade',
     image: '/images/default.jpeg',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
     name: 'Macarons Pistazie',
     image: '/images/default.jpeg',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Macarons Caramel au beurre salé',
     image: '/images/default.jpeg',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
     name: 'Macarons Zitrone',
     image: '/images/default.jpeg',
     description:
