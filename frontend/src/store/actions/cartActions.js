@@ -17,5 +17,5 @@ export const addToCart = (id, qty) => async (dispatch, getState) => {
   });
 
   // save cart items in a localStorage
-  localStorage.setItem('cartItem', JSON.stringify(getState().cart.cartItem));
+  localStorage.setItem('cartItems', JSON.stringify(getState().cart.cartItems));
 };
